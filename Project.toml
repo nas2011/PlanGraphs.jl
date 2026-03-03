@@ -1,0 +1,13 @@
+name = "PlanGraph"
+uuid = "0e3f77b9-e41f-485d-949d-3923b8596855"
+authors = ["Nick Sexson <nasexson@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
