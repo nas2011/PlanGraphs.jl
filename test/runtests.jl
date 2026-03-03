@@ -1,4 +1,4 @@
-using PlanGraph
+using PlanGraphs
 using Test
 
 @testset "PlanGraph.jl" begin
