@@ -1,3 +1,7 @@
+name = "PlanGraphs"
+uuid = "e8c56d71-55db-472d-965d-8db6d9f8c1b2"
+version = "0.1.0"
+
 [deps]
 Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
