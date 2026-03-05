@@ -1,4 +1,4 @@
-# PlanGraphs
+# PlanGraphs.jl
 
 A lightweight Julia framework for modeling and executing complex, multi-agent workflows. PlanGraphs allows you to define tasks (steps) that can run in series or parallel using a Directed Acyclic Graph (DAG) powered by MetaGraphsNext.jl.
 
