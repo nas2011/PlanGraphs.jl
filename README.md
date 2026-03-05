@@ -13,7 +13,7 @@ Data Structures
 StepConfig
 Defines the individual unit of work.
 
-Julia
+```julia
 @kwdef mutable struct StepConfig
     name::String      # Unique identifier for the step
     about::String     # Description of what the step does
@@ -37,7 +37,7 @@ Adds a StepConfig to the graph.
 step: The StepConfig instance to add.
 
 afterNodes: A Vector{StepConfig} representing the dependencies. The function will assert that these dependencies already exist in the graph.
-
+``` 
 Example Usage: Bioinformatics Research Workflow
 This example demonstrates an agentic workflow where multiple specialized agents (Target Profiling, AlphaFold, PubMed Mining) work in parallel to design a protein binder.
 
