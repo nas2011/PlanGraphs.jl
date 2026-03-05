@@ -32,11 +32,13 @@ mutable struct PlanGraph
     name::String
     about::String
 end
-API Reference
-addStep!(pg, step; afterNodes=nothing)
-Adds a StepConfig to the graph.
+```
 
-step: The StepConfig instance to add.
+API Reference
+```julia
+addStep!(pg, step; afterNodes=nothing)
+#Adds a StepConfig to the graph.
+#step: The StepConfig instance to add.
 
 afterNodes: A Vector{StepConfig} representing the dependencies. The function will assert that these dependencies already exist in the graph.
 ``` 
