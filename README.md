@@ -21,10 +21,12 @@ Defines the individual unit of work.
     maxIter::Int      # Maximum allowed iterations for this step
     level::Int        # Hierarchical level (useful for visualization)
 end
+```
+
 PlanGraph
 Wraps the MetaGraph to provide a high-level interface.
 
-Julia
+```julia
 mutable struct PlanGraph
     mg::MetaGraph{String, StepConfig, Nothing, Dict, Nothing}
     name::String
